@@ -8,9 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Exercise21-30\" />
-    <Folder Include="Exercise31-40\" />
-    <Folder Include="Exercise41-50\" />
     <Folder Include="Exercise61-70\" />
     <Folder Include="Exercise51-60\" />
   </ItemGroup>
