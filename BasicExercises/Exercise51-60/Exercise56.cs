@@ -10,7 +10,15 @@ namespace BasicExercises.Exercise51_60
     {
         public static void Run()
         {
+            Console.WriteLine("skriv en sætning");
 
+            string sen = Console.ReadLine();
+
+            char[] c = sen.ToCharArray();
+
+            Array.Reverse(c);
+
+            Console.WriteLine(new string(c).Equals(sen));
         }
     }
 }

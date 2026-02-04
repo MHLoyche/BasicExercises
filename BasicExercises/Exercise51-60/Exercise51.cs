@@ -10,7 +10,9 @@ namespace BasicExercises.Exercise51_60
     {
         public static void Run()
         {
+            int[] numbers = { 1, 2, 3, 4, 5 };
 
+            Console.WriteLine(numbers[0] > numbers[numbers.Length-1] ? numbers[0] : numbers[numbers.Length-1]);
         }
     }
 }

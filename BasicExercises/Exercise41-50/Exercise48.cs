@@ -10,7 +10,13 @@ namespace BasicExercises.Exercise41_50
     {
         public static void Run()
         {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 3, };
 
+            Console.WriteLine("The array contains the following: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 3, }");
+
+            Console.WriteLine("Is the first and last index of the array equal? ");
+
+            Console.WriteLine(numbers[0] == numbers[numbers.Length-1]);
         }
     }
 }
